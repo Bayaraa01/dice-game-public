@@ -81,7 +81,7 @@ document.querySelector(".btn-hold").addEventListener("click", function () {
     document.getElementById("current-" + activePlayer).textContent = "0";
 
     //Уг тоглогч хожсон эсэхийг шалгана.
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       isNewGame = false;
       document.getElementById("name-" + activePlayer).textContent = "Winner!!!";
       document
